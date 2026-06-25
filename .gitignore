@@ -1,0 +1,20 @@
+# 微信小程序
+miniprogram_npm/
+project.private.config.json
+
+# Node 依赖
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# WorkBuddy 本地数据
+.workbuddy/
+
+# 系统文件
+.DS_Store
+Thumbs.db
