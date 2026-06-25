@@ -292,6 +292,8 @@ main          — 生产分支，仅通过 MR 合入
 │   └── perf/setdata-optimize — 优化分支
 ```
 
+**远程仓库**: https://github.com/moshang149/exif-editor-miniapp
+
 ### 6.2 Commit Message 格式
 
 ```

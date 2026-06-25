@@ -143,7 +143,26 @@ exif-editor-miniapp/
 
 ---
 
-## 十、参考资源
+## 十、CodeBuddy 可用技能
+
+开发中可直接调用以下预装技能加速工作：
+
+| 技能 | 用途 | 触发场景 |
+|------|------|----------|
+| `wechat-miniprogram` | 微信小程序框架开发 | 页面/组件/API/WXML/WXSS/WXS 开发 |
+| `tdesign-miniprogram` | TDesign UI 组件库 | Button/Input/Dialog/Toast 等 60+ 组件使用 |
+| `skyline` | Skyline 渲染引擎 | 配置/组件/动画/路由/WXSS 兼容性 |
+| `skyline-components` | Skyline 组件开发 | scroll-view/swiper 等高性能组件 |
+| `skyline-wxss` | Skyline WXSS 样式 | CSS 属性支持度查询 |
+| `skyline-config` | Skyline JSON 配置 | app.json/page.json 渲染配置项 |
+| `skyline-worklet` | Worklet 动画 | 高性能交互动画（手势跟随、弹簧回弹） |
+| `github` | GitHub 操作 | 提交、搜索、PR、文件管理 |
+| `impeccable` | 高设计感前端界面 | 避免通用 AI 美学,输出专业 UI |
+| `web-animation-design` | 动画设计 | 页面过渡、交互动效 |
+
+---
+
+## 十一、参考资源
 
 - [微信小程序官方文档](https://developers.weixin.qq.com/miniprogram/dev/framework/)
 - [TDesign 小程序组件库](https://tdesign.tencent.com/miniprogram/)
