@@ -1,0 +1,11 @@
+{
+  "name": "exif-editor-miniapp",
+  "version": "1.0.0",
+  "description": "EXIF相片信息修复 微信小程序",
+  "main": "app.js",
+  "scripts": {},
+  "dependencies": {
+    "tdesign-miniprogram": "^1.9.0"
+  },
+  "license": "MIT"
+}
