@@ -52,7 +52,7 @@ exif-editor-miniapp/
 ├── project.config.json           # IDE 配置
 ├── sitemap.json                  # 搜索索引配置
 ├── pages/
-│   ├── index/                    # 首页（拍照/选图入口 + 模板推荐）
+│   ├── index/                    # 首页（相册选图入口 + 模板推荐）
 │   ├── editor/                   # EXIF 编辑页（核心编辑界面）
 │   ├── template/                 # 模板管理页
 │   └── preview/                  # 预览与保存页
@@ -104,13 +104,35 @@ exif-editor-miniapp/
 
 | 环境 | AppID | 后端 API |
 |------|-------|----------|
-| 开发 | 待申请 | `https://dev-api.example.com` |
-| 体验 | 待申请 | `https://staging-api.example.com` |
-| 生产 | 待申请 | `https://api.example.com` |
+| 开发 | `wxc843a55dc151a088` | 暂无（客户端处理优先） |
+| 体验 | `wxc843a55dc151a088` | 暂无 |
+| 生产 | `wxc843a55dc151a088` | 暂无 |
+
+## 七、Git 仓库
+
+| 项目 | 地址 |
+|------|------|
+| GitHub | https://github.com/moshang149/exif-editor-miniapp |
+| 本地代码区 | `C:\Users\admin\WeChatProjects\miniprogram-1` |
+| 当前分支 | `main` |
 
 ---
 
-## 七、团队与分工（规划）
+## 八、当前状态（新会话必读）
+
+| 项目 | 状态 |
+|------|------|
+| M1 阶段 | 脚手架 3/7 完成（AppID ✅ / TDesign ✅ / 项目结构 ✅），env.js/请求封装/域名注册待做 |
+| UI 设计 | 未启动 |
+| 核心开发 | 未启动，下一个待做项 = 首页页面开发 |
+| 文档 | 全部 7 份就绪，随开发同步更新 |
+| Git | 已推送 GitHub，每次修改后 commit+push |
+
+**新会话开局建议顺序：** 先读本 INDEX.md → 读 MEMORY.md → 看 SCHEDULE.md 确认进度 → 开始编码任务
+
+---
+
+## 九、团队与分工（规划）
 
 | 角色 | 职责 |
 |------|------|
@@ -121,7 +143,7 @@ exif-editor-miniapp/
 
 ---
 
-## 八、参考资源
+## 十、参考资源
 
 - [微信小程序官方文档](https://developers.weixin.qq.com/miniprogram/dev/framework/)
 - [TDesign 小程序组件库](https://tdesign.tencent.com/miniprogram/)
